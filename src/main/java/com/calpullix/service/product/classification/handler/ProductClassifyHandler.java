@@ -75,7 +75,7 @@ public class ProductClassifyHandler {
 			item.setMaterial("Material");
 			item.setPrice(new BigDecimal(125.00));
 			list.add(item);
-		}
+		} 
 		
 		result.setProductsClassify(list);
 		return result;
